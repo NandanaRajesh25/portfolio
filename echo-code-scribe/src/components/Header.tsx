@@ -6,7 +6,7 @@ const Header = () => {
     <header className="p-6 rounded-2xl bg-portfolio-pink-light flex justify-between items-center">
       <div className="flex items-center gap-2">
         <Link to="/" className="font-bold text-xl">
-          <span className="font-light">JULIA</span> HUANG
+          <span className="font-light">NANDANA</span> RAJESH
         </Link>
       </div>
       <nav className="hidden md:flex items-center gap-8">

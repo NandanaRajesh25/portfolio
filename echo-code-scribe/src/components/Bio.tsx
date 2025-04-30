@@ -13,7 +13,7 @@ const Bio = () => {
         </svg>
       </div>
       <p className="max-w-xl text-lg">
-        Julia Huang is an innovative AI artist, renowned for blending cutting-edge technology with creative expression. Based in LA, she crafts unique digital art experiences accessible globally.
+      I’m a 6th-semester BTech student passionate about full-stack web development, with experience in building user-focused, scalable applications. I also have a strong eye for design, using tools like Figma and Canva to craft visually engaging digital experiences.
       </p>
     </div>
   );

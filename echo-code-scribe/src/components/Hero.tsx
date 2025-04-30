@@ -15,12 +15,12 @@ const Hero = () => {
             />
           </svg>
         </div>
-        <h1 className="text-4xl md:text-5xl font-bold mb-2">Artist Redefining</h1>
-        <h1 className="text-4xl md:text-5xl font-light mb-2">Architecture</h1>
+        <h1 className="text-4xl md:text-5xl font-bold mb-2">Developer Crafting</h1>
+        <h1 className="text-4xl md:text-5xl font-light mb-2">Scalable Web Experiences</h1>
         <h1 className="text-4xl md:text-5xl font-bold">
-          with
+        with
           <br />
-          AI-Driven Design
+          Design & Code
         </h1>
       </div>
 

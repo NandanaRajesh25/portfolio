@@ -1,12 +1,16 @@
 
 import { ArrowUpRight } from "lucide-react";
 import { Link } from "react-router-dom";
+import projectImage1 from '../assets/project1.png';
+import projectImage2 from '../assets/project2.png';
+import projectImage3 from '../assets/project3.png';
+import projectImage4 from '../assets/project4.png';
 
 const projects = [
-  { id: 1, name: "Musea", slug: "musea", imageUrl: "https://images.unsplash.com/photo-1493397212122-2b85dda8106b" },
-  { id: 2, name: "Elara", slug: "elara", imageUrl: "" },
-  { id: 3, name: "Verve", slug: "verve", imageUrl: "" },
-  { id: 4, name: "Zephyr", slug: "zephyr", imageUrl: "" },
+  { id: 1,name: "MediIntel",slug: "mediintel", imageUrl: "https://images.unsplash.com/photo-1493397212122-2b85dda8106b" },
+  { id: 2,name: "SkillX",slug: "skillx",imageUrl: "" },
+  { id: 3,name: "DineEase",slug: "dineease", imageUrl: "" },
+  { id: 4,name: "LexiQ",slug: "lexiq", imageUrl: "" },
 ];
 
 const ProjectsPreview = () => {
@@ -14,7 +18,7 @@ const ProjectsPreview = () => {
     <div className="card">
       <div className="mb-4 grid md:grid-cols-2 gap-4">
         <div className="col-span-2">
-          <Link to="/projects/musea" className="block aspect-video rounded-xl overflow-hidden bg-portfolio-beige relative group">
+          <Link to="/projects/MediIntel" className="block aspect-video rounded-xl overflow-hidden bg-portfolio-beige relative group">
             <img 
               src="https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=1000&auto=format&fit=crop" 
               alt="Musea Project" 

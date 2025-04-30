@@ -3,38 +3,42 @@ import { ArrowUpRight } from "lucide-react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { Link } from "react-router-dom";
+import projectImage1 from '../assets/project1.png';
+import projectImage2 from '../assets/project2.png';
+import projectImage3 from '../assets/project3.png';
+import projectImage4 from '../assets/project4.png';
 
 const projects = [
   {
     id: 1,
-    name: "Musea",
-    slug: "musea",
-    description: "An AI-generated architectural space that reimagines museum experiences through digital immersion.",
-    imageUrl: "https://images.unsplash.com/photo-1605810230434-7631ac76ec81?q=80&w=1000&auto=format&fit=crop",
-    year: 2024
+    name: "MediIntel",
+    slug: "mediintel",
+    description: "An AI-powered healthcare platform designed to optimize medical resource management and predict service demand.",
+    imageUrl: projectImage1,
+    year: 2025
   },
   {
     id: 2,
-    name: "Elara",
-    slug: "elara",
-    description: "A virtual residential concept that adapts to inhabitants' emotional states through AI sensing.",
-    imageUrl: "https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?q=80&w=1000&auto=format&fit=crop",
+    name: "SkillX",
+    slug: "skillx",
+    description: "A peer-to-peer skill exchange platform enabling users to learn and teach through one-on-one interactions.",
+    imageUrl: projectImage2,
     year: 2023
   },
   {
     id: 3,
-    name: "Verve",
-    slug: "verve",
-    description: "An exploration of biomorphic structures generated through machine learning algorithms.",
-    imageUrl: "https://images.unsplash.com/photo-1493397212122-2b85dda8106b?q=80&w=1000&auto=format&fit=crop",
+    name: "DineEase",
+    slug: "dineease",
+    description: "A digital restaurant menu and ordering system that enhances dining efficiency through real-time order management.",
+    imageUrl: projectImage3,
     year: 2023
   },
   {
     id: 4,
-    name: "Zephyr",
-    slug: "zephyr",
-    description: "A responsive urban environment concept that evolves based on climate data analysis.",
-    imageUrl: "https://images.unsplash.com/photo-1526374965328-7f61d4dc18c5?q=80&w=1000&auto=format&fit=crop",
+    name: "LexiQ",
+    slug: "lexiq",
+    description: "An AI-powered legal platform that transforms complex court judgments into accessible, searchable, and interactive knowledge.",
+    imageUrl: projectImage4,
     year: 2022
   },
 ];

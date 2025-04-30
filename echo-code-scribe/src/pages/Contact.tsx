@@ -109,27 +109,28 @@ const Contact = () => {
                 <div className="space-y-3">
                   <p>
                     <span className="block text-sm text-gray-600">Email</span>
-                    <span className="font-medium">hello@juliahuang.com</span>
+                    <span className="font-medium">nandanarajesh4224@gmail.com</span>
                   </p>
                   
                   <p>
-                    <span className="block text-sm text-gray-600">Studio</span>
-                    <span className="font-medium">1234 Design Avenue, Arts District</span><br />
-                    <span className="font-medium">Los Angeles, CA 90012</span>
+                    <span className="block text-sm text-gray-600">WhatsApp</span>
+                    <span className="font-medium">6282228112</span><br />
+                    
                   </p>
                   
-                  <p>
+              {/*    <p>
                     <span className="block text-sm text-gray-600">Working Hours</span>
                     <span className="font-medium">Monday – Friday, 9am – 5pm PST</span>
                   </p>
-                </div>
+              */}
+                  </div>
                 
                 <div className="mt-8">
                   <h3 className="text-xl font-bold mb-4">Follow Me</h3>
                   
                   <div className="flex gap-4">
                     <a 
-                      href="https://instagram.com" 
+                      href="https://www.instagram.com/i_nandanarajesh_?igsh=MzNwcWEzdXpvdTQ0" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="bg-white hover:bg-gray-100 transition-colors p-3 rounded-full"
@@ -137,7 +138,7 @@ const Contact = () => {
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5"><rect width="20" height="20" x="2" y="2" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/></svg>
                     </a>
                     
-                    <a 
+              {/*    <a 
                       href="https://twitter.com" 
                       target="_blank" 
                       rel="noopener noreferrer"
@@ -145,9 +146,9 @@ const Contact = () => {
                     >
                       <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" className="w-5 h-5"><path d="M22 4s-.7 2.1-2 3.4c1.6 10-9.4 17.3-18 11.6 2.2.1 4.4-.6 6-2C3 15.5.5 9.6 3 5c2.2 2.6 5.6 4.1 9 4-.9-4.2 4-6.6 7-3.8 1.1 0 3-1.2 3-1.2z"/></svg>
                     </a>
-                    
+               */}     
                     <a 
-                      href="https://linkedin.com" 
+                      href="https://www.linkedin.com/in/nandanarajesh/" 
                       target="_blank" 
                       rel="noopener noreferrer"
                       className="bg-white hover:bg-gray-100 transition-colors p-3 rounded-full"
