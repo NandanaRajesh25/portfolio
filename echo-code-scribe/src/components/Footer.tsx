@@ -1,0 +1,25 @@
+
+import { Link } from "react-router-dom";
+
+const Footer = () => {
+  return (
+    <footer className="py-8 px-6 mt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+      <div>
+        <p className="text-sm text-gray-600">© 2025 Julia Huang. All rights reserved.</p>
+      </div>
+      <div className="flex gap-8">
+        <Link to="https://instagram.com" target="_blank" className="text-sm font-medium text-gray-600 hover:text-gray-800">
+          INSTAGRAM
+        </Link>
+        <Link to="https://twitter.com" target="_blank" className="text-sm font-medium text-gray-600 hover:text-gray-800">
+          TWITTER
+        </Link>
+        <Link to="https://linkedin.com" target="_blank" className="text-sm font-medium text-gray-600 hover:text-gray-800">
+          LINKEDIN
+        </Link>
+      </div>
+    </footer>
+  );
+};
+
+export default Footer;
