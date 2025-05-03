@@ -8,6 +8,13 @@ const Footer = () => {
         <p className="text-sm text-gray-600">© 2025 Julia Huang. All rights reserved.</p>
       </div>
       <div className="flex gap-8">
+      
+      <Link to="https://github.com/nandanarajesh25" target="_blank" className="text-sm font-medium text-gray-600 hover:text-gray-800">
+          GITHUB
+        </Link>
+        <Link to="https://www.linkedin.com/in/nandanarajesh/" target="_blank" className="text-sm font-medium text-gray-600 hover:text-gray-800">
+          LINKEDIN
+        </Link>
         <Link to="https://www.instagram.com/i_nandanarajesh_?igsh=MzNwcWEzdXpvdTQ0" target="_blank" className="text-sm font-medium text-gray-600 hover:text-gray-800">
           INSTAGRAM
         </Link>
@@ -15,9 +22,7 @@ const Footer = () => {
           TWITTER
         </Link>
       */}
-        <Link to="https://www.linkedin.com/in/nandanarajesh/" target="_blank" className="text-sm font-medium text-gray-600 hover:text-gray-800">
-          LINKEDIN
-        </Link>
+        
       </div>
     </footer>
   );
