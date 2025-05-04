@@ -5,8 +5,8 @@ const Header = () => {
   return (
     <header className="p-6 rounded-2xl bg-portfolio-pink-light flex justify-between items-center">
       <div className="flex items-center gap-2">
-        <Link to="/" className="font-bold text-xl">
-          <span className="font-light">NANDANA</span> RAJESH
+        <Link to="/" className="font-light text-xl">
+          <span className="font-bold">NANDANA</span> RAJESH
         </Link>
       </div>
       <nav className="hidden md:flex items-center gap-8">

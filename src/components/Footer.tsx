@@ -4,10 +4,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="py-8 px-6 mt-8 flex flex-col md:flex-row justify-between items-center gap-4">
-      <div>
-        <p className="text-sm text-gray-600">© 2025 Julia Huang. All rights reserved.</p>
-      </div>
-      <div className="flex gap-8">
+      <div className="ml-auto flex gap-8">
       
       <Link to="https://github.com/nandanarajesh25" target="_blank" className="text-sm font-medium text-gray-600 hover:text-gray-800">
           GITHUB
