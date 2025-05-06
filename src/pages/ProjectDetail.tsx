@@ -66,9 +66,9 @@ const ProjectDetail = () => {
   
   if (!project) {
     return (
-      <div className="min-h-screen max-w-6xl mx-auto p-4">
+      <div className="min-h-screen max-w-12xl mx-auto p-4">
         <Header />
-        <main className="py-12">
+        <main className="py-4">
           <div className="card">
             <h1 className="text-4xl md:text-5xl font-bold mb-6">Project Not Found</h1>
             <Link to="/projects" className="inline-flex items-center gap-2 text-lg">
@@ -83,10 +83,10 @@ const ProjectDetail = () => {
   }
   
   return (
-    <div className="min-h-screen max-w-6xl mx-auto p-4">
+    <div className="min-h-screen max-w-12xl mx-auto p-4">
       <Header />
-      <main className="py-12">
-        <div className="card">
+      <main className="py-4">
+        <div className="bg-[#FADCD9] card">
           <div className="mb-8">
             <Link to="/projects" className="inline-flex items-center gap-2 text-sm text-gray-600 hover:text-gray-900">
               <ArrowLeft className="w-4 h-4" />
@@ -111,35 +111,35 @@ const ProjectDetail = () => {
               <p className="mb-6">{project.fullDescription}</p>
               
               <div className="mt-8">
-          {/*      <a 
+                <a 
                   href={project.link} 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="inline-flex items-center gap-2 text-lg font-medium hover:text-portfolio-salmon"
                 >
-                  View Project Website
+                  View More
                   <ArrowUpRight className="w-5 h-5" />
                 </a>
-          */}    </div>
+              </div>
             </div>
             
             <div>
-              <div className="bg-portfolio-pink rounded-lg p-6">
+              <div className="bg-[#F8AFA6] rounded-lg p-6">
                 <h3 className="text-lg font-bold mb-4">Project Details</h3>
                 
                 <div className="space-y-3">
                   <p>
-                    <span className="block text-sm text-gray-600">Year</span>
+                    <span className="block text-sm text-white">Year</span>
                     <span className="font-medium">{project.year}</span>
                   </p>
                   
                   <p>
-                    <span className="block text-sm text-gray-600">Client</span>
+                    <span className="block text-sm text-white">Client</span>
                     <span className="font-medium">{project.client}</span>
                   </p>
                   
                   <div>
-                    <span className="block text-sm text-gray-600 mb-1">Technologies</span>
+                    <span className="block text-sm text-white mb-1">Technologies</span>
                     <div className="flex flex-wrap gap-2">
                       {project.technologies.map((tech, index) => (
                         <span 

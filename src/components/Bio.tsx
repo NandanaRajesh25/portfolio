@@ -1,7 +1,7 @@
 
 const Bio = () => {
   return (
-    <div className="card mb-4">
+    <div className="bg-[#FADCD9] card">
       <div className="absolute top-12 left-12">
         <svg className="w-12 h-12 animate-spin-slow text-portfolio-salmon opacity-20" viewBox="0 0 100 100">
           <path

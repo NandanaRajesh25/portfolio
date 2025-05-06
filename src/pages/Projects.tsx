@@ -45,10 +45,10 @@ const projects = [
 
 const Projects = () => {
   return (
-    <div className="min-h-screen max-w-6xl mx-auto p-4">
+    <div className="min-h-screen max-w-12xl mx-auto p-4">
       <Header />
-      <main className="py-12">
-        <div className="card">
+      <main className="py-4">
+        <div className="bg-[#FADCD9] card">
           <h1 className="text-4xl md:text-5xl font-bold mb-12">Projects</h1>
           
           <div className="grid md:grid-cols-2 gap-8">

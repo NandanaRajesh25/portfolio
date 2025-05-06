@@ -8,19 +8,30 @@ import Footer from "../components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen max-w-6xl mx-auto p-4">
+    <div className="min-h-screen max-w-12xl mx-auto p-4">
       <Header />
-      <main className="py-8">
-        <Hero />
+
+      <div className="md:flex flex-row gap-4">
         
-        <div className="grid md:grid-cols-2 gap-4 mb-4">
-          <Bio />
-          <ContactCard />
+        <div className="py-4 md:w-2/3">
+          <Hero />
+        
+          <div className="grid md:grid-cols-2 md:gap-4">
+            <Bio />
+            <ContactCard />
+          </div>
+      
         </div>
-        
-        <ProjectsPreview />
-      </main>
-      <Footer />
+
+        <div className="py-4 md:w-1/3">
+      
+          <ProjectsPreview />
+          <Footer />
+
+        </div>
+  
+    </div>
+    
     </div>
   );
 };

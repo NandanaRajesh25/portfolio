@@ -2,18 +2,19 @@
 import { ArrowUpRight } from "lucide-react";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
+import photo from "../assets/photo.png"
 
 const About = () => {
   return (
-    <div className="min-h-screen max-w-6xl mx-auto p-4">
+    <div className="min-h-screen max-w-12xl mx-auto p-4">
       <Header />
-      <main className="py-12">
-        <div className="card">
+      <main className="py-4">
+        <div className="bg-[#FADCD9] card">
           <h1 className="text-4xl md:text-5xl font-bold mb-12">About</h1>
           
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <p className="text-lg mb-6">
+            <p className="text-lg mb-6">
               Nandana Rajesh is a full-stack web developer and creative technologist whose work bridges the worlds of software engineering, user experience, and visual design
               </p>
               <p className="mb-6">
@@ -49,14 +50,12 @@ const About = () => {
             
             <div>
               <img 
-                src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158"
-                alt="Julia Huang working on digital art" 
+                src={photo}
                 className="rounded-lg w-full h-auto mb-6"
               />
               
               <div className="mt-8">
-                <h3 className="text-lg font-bold mb-2">Achievements/competitions
-                </h3>
+                <h3 className="text-lg font-bold mb-2">Achievements/competitions</h3>
                 <div className="space-y-3">
                   <div className="flex justify-between items-center border-b border-gray-200 pb-2">
                     <span>Secured 3rd place in Innovatex Hackathon 2025 conducted by Digital University Kerala

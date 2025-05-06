@@ -1,10 +1,11 @@
 
 import { ArrowUpRight } from "lucide-react";
+import photo from "../assets/photo.png"
 
 const Hero = () => {
   return (
-    <div className="grid md:grid-cols-2 gap-4 mb-4">
-      <div className="card flex flex-col justify-center">
+    <div className="md:flex flex-row gap-4 mb-4">
+      <div className="bg-[#FADCD9] card flex flex-col justify-center md:w-2/3">
         <div className="absolute top-12 right-12">
           <svg className="w-32 h-32 animate-spin-slow text-portfolio-salmon opacity-20" viewBox="0 0 100 100">
             <path
@@ -24,11 +25,10 @@ const Hero = () => {
         </h1>
       </div>
 
-      <div className="card overflow-hidden bg-portfolio-beige">
+      <div className="bg-[#FADCD9] card overflow-hidden md:w-1/3">
         <img
-          src="/lovable-uploads/6d9f1b7b-366b-4abc-8da8-fdaade85b258.png"
-          alt="Julia Huang"
-          className="w-full h-full object-cover rounded-lg"
+          src={photo}
+          className="w-full h-full object-cover rounded-lg filter grayscale-[100%]"
         />
       </div>
     </div>
